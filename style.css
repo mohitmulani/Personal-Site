@@ -271,11 +271,11 @@ body{
         font-size: 10px;
     }
     .project1-section2{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.8fr 1fr;
     }
     .project1-image1-holder {
-        height: 70%;
-        width: 75%;
+        height: 50%;
+        width: 70%;
         background-image: url(./assets/images/TinDog-responsive1.png);
         background-size: contain;
     }
@@ -290,7 +290,9 @@ body{
         align-items: flex-start;
     }
     .project1-info{
-        font-size: 10px;
+        font-size: 8px;
+        text-align: left;
+        padding-right: 20px;
     }
     .page-number4{
         font-size: 10px;
@@ -299,10 +301,10 @@ body{
         height: 80%;
     }
     .project2-image2-holder{
-        height: 30%;
+        height: 70%;
     }
     #project-2{
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
     }
     .project2-section2-section1{
         grid-template-rows: 1fr 0.8fr 0.8fr;
@@ -312,7 +314,7 @@ body{
         text-align: center;
     }
     .project2-info{
-        font-size: 10px;
+        font-size: 8px;
         grid-template-columns: 0.4fr 3fr 0.4fr;
     }
     .project2-info-info{
@@ -325,7 +327,7 @@ body{
         font-size: 20px;
     }
     .linkedin,.insta,.github{
-        font-size: 15px;
+        font-size: 10px;
     }
     #contact-me{
         margin-top: 100px;
@@ -335,6 +337,12 @@ body{
     }
     .contact-me-section2-section2{
     grid-template-rows: 1.1fr 1fr 1fr 1fr 1fr;
+    }
+    .github-link,.insta-link,.linkedin-link{
+        font-size: 10px;
+    }
+    .footer{
+        font-size: 10px;
     }
     }
   @media (min-width: 481px) and (max-width: 1200px) {
